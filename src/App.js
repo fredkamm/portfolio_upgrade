@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./components/pages/Navbar";
-import Home from "./components/pages/Home";
-import About from "./components/pages/AboutMe";
-import Work from "./components/pages/Work";
-import Skills from "./components/pages/Skills";
-import Contact from "./components/pages/Contact";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/AboutMe";
+import Work from "./components/Work";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 const App = () => {
     return (
@@ -12,8 +12,8 @@ const App = () => {
             <Navbar />
             <Home />
             <About />
-            <Work />
-            <Skills />
+            {/* <Work /> */}
+            {/* <Skills /> */}
             <Contact />
         </div>
     );
