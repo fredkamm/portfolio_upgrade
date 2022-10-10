@@ -1,0 +1,13 @@
+.cardBody {
+    display: block;
+    color: black;
+}
+
+.box {
+    display: inline-flex;
+    margin-right: 2%;
+}
+
+.grid {
+    display: flex;
+}
