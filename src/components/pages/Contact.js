@@ -1,97 +1,20 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import '../../styles/contact.css';
+import React from 'react'
 
-export default function Contact() {
-
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
-  const [message, setMessage] = useState('');
-
-  const [errorMessage, setErrorMessage] = useState('');
-
-  const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-
-    if (inputType === 'email') {
-      setEmail(inputValue)
-    } else if (inputType === 'name') {
-      setName(inputValue);
-    } else if (inputType === 'message') {
-      setMessage(inputValue);
-    }
-    if (!validateEmail(email)) {
-      setErrorMessage('Please enter a valid email');
-    } else {
-      setErrorMessage('')
-    }
-  }
-
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-
-    if (!validateEmail(email)) {
-      setErrorMessage('Please enter a valid email');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-    }
-    alert(`Hello ${name}, your message was recieved and i will reach out to you shortly! check your email: ${email}`);
-
-    setName('');
-    setMessage('');
-    setEmail('');
-  }
-
+const Contact = () => {
   return (
-    <div>
-      <h4>Hello {name}</h4>
-      <form className="form">
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="Enter email"
-          />
-          <Form.Text id="formText" className="textMuted">
-            We'll never share your email with anyone else.
-          </Form.Text>
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Your name</Form.Label>
-          <Form.Control
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Enter your name"
-          />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Message</Form.Label>
-          <Form.Control
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Enter your message to me"
-          />
-        </Form.Group>
-        <Button variant="primary" type="submit" onClick={handleFormSubmit}>
-          Submit
-        </Button>
-        {errorMessage && (
-          <div>
-            <h4 className="error-text">{errorMessage}</h4>
-          </div>
-        )}
-      </form>
+    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
+        <form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c" className='flex flex-col max-w-[600px] w-full'>
+            <div className='pb-8'>
+                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
+                <p className='text-gray-300 py-4'>Submit the form below or shoot me an email - fred.kamm95@gmil.com</p>
+            </div>
+            <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' />
+            <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' />
+            <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder='Message'></textarea>
+            <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
+        </form>
     </div>
   )
 }
+
+export default Contact
