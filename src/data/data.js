@@ -1,35 +1,35 @@
 import AnimeBlog from "../assets/projects/AnimeBlog.png";
 import AnimeList from "../assets/projects/AnimeList.png";
 import Password from "../assets/projects/PasswordGen.png";
-import Scheduler from "../assets/projects/scheduler.png";
+import Weather from "../assets/projects/Weather.png";
 
 export const data = [
   {
     id: 1,
-    name: "React JS Application",
+    name: "AnimeBlog",
     image: AnimeBlog,
-    github: "",
-    live: "",
+    github: "https://github.com/fredkamm/anime_blog",
+    live: "https://whispering-wildwood-37950.herokuapp.com/",
   },
   {
     id: 2,
-    name: "React JS Application",
+    name: "AnimeList",
     image: AnimeList,
-    github: "",
-    live: "",
+    github: "https://github.com/fredkamm/Anime-List",
+    live: "https://fredkamm.github.io/Anime-List/",
   },
   {
     id: 3,
-    name: "React JS Application",
+    name: "Password Generator",
     image: Password,
-    github: "",
-    live: "",
+    github: "https://github.com/fredkamm/password-generator",
+    live: "https://fredkamm.github.io/password-generator/",
   },
   {
     id: 4,
-    name: "React JS Application",
-    image: Scheduler,
-    github: "",
-    live: "",
+    name: "Weather Dashboard",
+    image: Weather,
+    github: "https://github.com/fredkamm/weather-dashboard",
+    live: "https://fredkamm.github.io/weather-dashboard/",
   },
 ];
