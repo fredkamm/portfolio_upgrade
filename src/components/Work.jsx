@@ -20,6 +20,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${item.image})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div"
             >
+                {/* HOVER EFFECT */}
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font bold text-white tracking-wider">
                   {item.name}
