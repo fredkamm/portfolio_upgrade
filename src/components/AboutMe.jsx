@@ -24,7 +24,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am a ‰web developer leveraging my creative background to build a
+              I am a web developer leveraging my creative background to build a
               more intuitive user experience on the web. Recently earned a
               certificate in full stack development from The University of
               Pennsylvania Coding Bootcamp, with newly developed skills in
