@@ -14,8 +14,7 @@ const Home = () => {
           I'm a Web Developer.
         </h2>
         <p className="text-[#ccd6f6] py-4 max-w-[700px]">
-          I'm a web developer with a specialization in front-end developemen. Committed to building and designing amazing
-          user experiences. Currently I am focused on building responsive full-stack web applications
+          I'm a web developer with a specialization in front-end development. Committed to building and designing amazing user experiences. Currently I am focused on building personal projects that will polish and improve my coding skills. 
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
