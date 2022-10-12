@@ -7,16 +7,16 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
 const App = () => {
-    return (
-        <div>
-            <Navbar />
-            <Home />
-            <About />
-            {/* <Work /> */}
-            {/* <Skills /> */}
-            <Contact />
-        </div>
-    );
+  return (
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      {/* <Work /> */}
+      {/* <Skills /> */}
+      <Contact />
+    </div>
+  );
 };
 
 export default App;
