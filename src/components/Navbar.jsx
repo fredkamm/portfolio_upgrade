@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/images/logo2.png";
@@ -12,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#FCE110]">
       <div>
         <img src={Logo} alt="Logo" style={{ width: "100px" }} />
       </div>
@@ -95,7 +94,7 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={35} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/fredkamm"
@@ -103,7 +102,7 @@ const Navbar = () => {
               Github <FaGithub size={35} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto: fred.kamm95@gmail.com"
@@ -111,7 +110,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={35} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://docs.google.com/document/d/1cAlCPvA9sBlhrL2ygxDsZ28cbNDNHaPsCl9CnQm82sM/edit?mode=html"

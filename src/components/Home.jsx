@@ -4,23 +4,22 @@ import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div name="home" className="w-full h-screen bg-[#000000]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600">Hi, my name is</p>
+        <p className="text-[#FCE110]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           FRED KAMM
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Full Stack Developer.
+          I'm a Web Developer.
         </h2>
-        <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm a full-developer specializing in building and designing amazing
-          user experience. Currently I am focused on building responsive
-          full-stack web applications
+        <p className="text-[#ccd6f6] py-4 max-w-[700px]">
+          I'm a web developer with a specialization in front-end developemen. Committed to building and designing amazing
+          user experiences. Currently I am focused on building responsive full-stack web applications
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FCE110] hover:border-[#FCE110] hover:text-[#000000]">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
@@ -34,3 +33,4 @@ const Home = () => {
 };
 
 export default Home;
+
