@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_upgrade/static/css/main.3ccd4077.css",
-    "main.js": "/portfolio_upgrade/static/js/main.0b155b26.js",
+    "main.js": "/portfolio_upgrade/static/js/main.f753a031.js",
     "static/media/profilepicture.png": "/portfolio_upgrade/static/media/profilepicture.09dc082ba7de84aaf300.png",
     "static/media/AnimeBlog.png": "/portfolio_upgrade/static/media/AnimeBlog.a5be12acad34413b524c.png",
     "static/media/AnimeList.png": "/portfolio_upgrade/static/media/AnimeList.ac37265ea8d3f8f80933.png",
@@ -15,10 +15,10 @@
     "static/media/javascript.png": "/portfolio_upgrade/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio_upgrade/index.html",
     "main.3ccd4077.css.map": "/portfolio_upgrade/static/css/main.3ccd4077.css.map",
-    "main.0b155b26.js.map": "/portfolio_upgrade/static/js/main.0b155b26.js.map"
+    "main.f753a031.js.map": "/portfolio_upgrade/static/js/main.f753a031.js.map"
   },
   "entrypoints": [
     "static/css/main.3ccd4077.css",
-    "static/js/main.0b155b26.js"
+    "static/js/main.f753a031.js"
   ]
 }
