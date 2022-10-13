@@ -6,7 +6,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 export default function Footer() {
   return (
     <footer>
-      <div className="lg:hidden sm:text-[#ccd6f6] bg-[#000000] flex justify-center items-center w-full h-full">
+      <div className="text-[#ccd6f6] bg-[#000000] flex justify-center items-center w-full h-full lg:hidden ">
         <a href="https://github.com/fredkamm" className="pr-5">
           <FaGithub size={35} />
         </a>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_upgrade/static/css/main.9c2d3d7b.css",
-    "main.js": "/portfolio_upgrade/static/js/main.4d22acbe.js",
+    "main.css": "/portfolio_upgrade/static/css/main.3ccd4077.css",
+    "main.js": "/portfolio_upgrade/static/js/main.97334a93.js",
     "static/media/profilepicture.png": "/portfolio_upgrade/static/media/profilepicture.09dc082ba7de84aaf300.png",
     "static/media/AnimeBlog.png": "/portfolio_upgrade/static/media/AnimeBlog.a5be12acad34413b524c.png",
     "static/media/AnimeList.png": "/portfolio_upgrade/static/media/AnimeList.ac37265ea8d3f8f80933.png",
@@ -14,11 +14,11 @@
     "static/media/css.png": "/portfolio_upgrade/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio_upgrade/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio_upgrade/index.html",
-    "main.9c2d3d7b.css.map": "/portfolio_upgrade/static/css/main.9c2d3d7b.css.map",
-    "main.4d22acbe.js.map": "/portfolio_upgrade/static/js/main.4d22acbe.js.map"
+    "main.3ccd4077.css.map": "/portfolio_upgrade/static/css/main.3ccd4077.css.map",
+    "main.97334a93.js.map": "/portfolio_upgrade/static/js/main.97334a93.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2d3d7b.css",
-    "static/js/main.4d22acbe.js"
+    "static/css/main.3ccd4077.css",
+    "static/js/main.97334a93.js"
   ]
 }
