@@ -32,9 +32,7 @@ const About = () => {
               innovative problem solver passionate about developing apps,
               focusing on mobile-first design and development. With each
               project, my aim is best to engage my audience for an impactful
-              user experience. I'm excited to leverage my skills as part of a
-              fast-paced, quality-driven team to build better experiences on the
-              web.
+              user experience. 
             </p>
           </div>
         </div>

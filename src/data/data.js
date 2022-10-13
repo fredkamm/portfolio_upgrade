@@ -23,7 +23,7 @@ export const data = [
     name: 'Password Generator',
     image: Password,
     github: 'https://github.com/fredkamm/password-generator',
-    live: 'https://fredkamm.github.io/password-generator/',
+    live: 'https://celebrated-gingersnap-062734.netlify.app/',
   },
   {
     id: 4,
