@@ -29,7 +29,7 @@ export const data = [
     id: 4,
     name: 'Weather Dashboard',
     image: Weather,
-    github: 'https://github.com/fredkamm/weather-dashboard',
-    live: 'https://fredkamm.github.io/weather-dashboard/',
+    github: 'https://github.com/fredkamm/weather_app',
+    live: 'https://fredkammweatherapp.netlify.app/',
   },
 ];
