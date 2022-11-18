@@ -1,4 +1,4 @@
-import AnimeBlog from '../assets/projects/AnimeBlog.png';
+import Chatapp from '../assets/projects/chat-app.png';
 import AnimeList from '../assets/projects/AnimeList.png';
 import Password from '../assets/projects/PasswordGen.png';
 import Weather from '../assets/projects/Weather.png';
@@ -6,10 +6,10 @@ import Weather from '../assets/projects/Weather.png';
 export const data = [
   {
     id: 1,
-    name: 'AnimeBlog',
-    image: AnimeBlog,
-    github: 'https://github.com/fredkamm/anime_blog',
-    live: 'https://whispering-wildwood-37950.herokuapp.com/',
+    name: 'Chat App',
+    image: Chatapp,
+    github: 'https://github.com/fredkamm/chat-app-react',
+    live: 'https://chat-app-a9849.firebaseapp.com/',
   },
   {
     id: 2,
